@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
+  color: #000000;
   background: #ffffff;
 }
 /* Link Styles */
@@ -99,9 +99,9 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-/*----------------------------------- CHANGE THE HOVER COLOR */
+
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f4eb69;
 }
 
 ul.skills {
@@ -206,3 +206,5 @@ a.social:hover {
   }
 
 }
+
+/*------- Resume CSS -----------*/
