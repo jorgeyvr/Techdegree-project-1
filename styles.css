@@ -11,7 +11,7 @@ body {
   color: #000000;
   background: #ffffff;
 }
-/* Link Styles */
+/*--- Link Styles ---*/
 
 a {
   text-decoration: none;
@@ -21,7 +21,7 @@ a:hover {
   color: #6633ff;
 }
 
-/* Section Styles */
+/*--- Section Styles ---*/
 
 .main-nav {
   width: 100%;
@@ -99,6 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
+/*--- Cards Styles ---*/
 
 .card:hover {
   border-color: #f4eb69;
@@ -122,6 +123,8 @@ ul.skills {
   background: #0399ff;
 }
 
+/*--- Footer Styles ---*/
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -142,6 +145,8 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+
+/*--- Social Media Styles ---*/
 
 a.social {
   display: inline-block;
@@ -169,7 +174,8 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
+/*--- Styles for larger screens ---*/
+
 @media screen and (min-width: 720px) {
 
   .flex {
