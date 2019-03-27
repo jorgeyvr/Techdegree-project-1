@@ -57,6 +57,7 @@ a:hover {
 
 header {
   text-align: center;
+  /*** images form https://www.pexels.com/@fotios-photos ***/
   background: url('images/bg.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
