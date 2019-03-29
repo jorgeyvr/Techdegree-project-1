@@ -30,9 +30,11 @@ a:hover {
   width: 100%;
   background: #fffffe;
   min-height: 30px;
+  margin-right: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+
 }
 
 
@@ -42,12 +44,15 @@ a:hover {
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
+  margin-right: 60px;
   padding: 0;
 }
+
 
 .nav-2 .name {
   display: block;
   margin-right: auto;
+  margin-left: 60px;;
   color: black;
 }
 
@@ -67,7 +72,7 @@ a:hover {
 /*--- Picture Styles ---*/
 
 .container{
-  text-align: left;
+  text-align: center;
 }
 
 img {
@@ -98,15 +103,5 @@ img {
 
 ul.qualifications {
   padding: 0;
-  text-align: center;
-}
-
-
-
-
-/*--- Credit Styles ---*/
-
-.credit {
-  margin-left: 30px;
-  font-size: .8em;
+  text-align: left;
 }
