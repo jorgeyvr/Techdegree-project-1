@@ -23,6 +23,11 @@ a:hover {
   color: #6633ff;
 }
 
+.tag_name {
+  color: #000000;
+  text-decoration: underline;
+}
+
 /*--- Navbar Styles ---*/
 
 .tertiary-nav {
