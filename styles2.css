@@ -1,8 +1,13 @@
 /* Global Layout Set-up 2 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #000000;
   background: #ffffff;
@@ -15,10 +20,6 @@ a {
   color: #000000;
 }
 
-.nav-2 a {
-  transition: all .5s;
-}
-
 a:hover {
   color: #babed2;
 }
@@ -27,39 +28,81 @@ a:hover {
 
 .secondary-nav {
   width: 100%;
-  background: transparent;
+  background: #fffffe;
   min-height: 30px;
   padding: 10px;
   position: fixed;
-  text-align: left;
+  text-align: center;
 }
 
 
 .nav-2 {
+  display: flex;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
-.nav-2 .home {
-  text-align: left;
-  border-style: solid;
-  border-width: 2px;
-  padding: 7px;
+.nav-2 .name {
+  display: block;
+  margin-right: auto;
+  color: black;
 }
 
+.nav-2 li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav-2 a {
+  transition: all .5s;
+}
+
+.nav-2 a:hover {
+  color: #babed2;
+}
 
 
 /*--- Picture Styles ---*/
 
-img {
+.container{
+  text-align: left;
+}
 
+img {
   width: 500px;
   height: 400px;
   margin-top: 70px;
   margin-left: 30px;
   border-radius: 8px;
+
 }
+
+/*--- Card ---*/
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 700px;
+  text-align: left;
+  background: #ffffff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card:hover {
+  border-color: #f4eb69;
+}
+
+ul.qualifications {
+  padding: 0;
+  text-align: center;
+}
+
+
+
 
 /*--- Credit Styles ---*/
 
