@@ -7,34 +7,60 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
   background: #ffffff;
-  font-family: sans-serif;
 }
 
-/*---- Navbar Styles ---*/
+/*--- Link Styles ---*/
 a {
   text-decoration: none;
   color: #000000;
 }
 
-.hobbies-nav a {
-  transition: all .5s;
+a:hover {
+  color: #6633ff;
 }
 
-.hobbies-nav a:hover {
+/*--- Navbar Styles ---*/
+
+.tertiary-nav {
+  width: 100%;
+  background: #ffffff;
+  min-height: 30px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-3 {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-right: 60px;
+  padding: 0;
+}
+
+.nav-3 .name {
+    display: block;
+    margin-right: auto;
+    margin-left: 60px;
+    color: black;
+}
+.nav-3 li {
+  padding: 5px 10px 10px 10px;
+}
+.nav-3 a {
+  transition: all .5s;
+}
+.nav-3 a:hover {
   color: #babed2;
 }
 
-ul {
-  list-style-type: none;
-}
 
-/*---- Menu Styles ---*/
-.menu {
-  border-style: solid;
-  border-width: 2px;
-  padding: 7px;
-}
 
 
 /*---- Pictures and Cointainer Styles ---*/
